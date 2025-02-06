@@ -1,0 +1,339 @@
+
+<html>
+<head>
+<title>practical</title>
+</head>
+<body>
+
+ <!-- paragraph with large font size ;for size use px, em, rem -->  
+<p style="font-size:3em;"> Practical:</p> 
+
+
+ <!-- paragraph with green color text-->  
+<p style="color:green;">Rouf ahmed</p>
+ <!-- regular paragraph without any styling-->  
+<p> Rouf ahmed</p>
+<hr>
+ <!--different heading levels  -->  
+<h1>Rouf ahmed</h1><!--biggest/ highest /most important heading --> 
+<h2>Rouf ahmed</h2>
+<h3>Rouf ahmed</h3>
+<h4>Rouf ahmed</h4>
+<h5>Rouf ahmed</h5>
+<h6>Rouf ahmed</h6> <!--smallest or least importance --> 
+
+<hr>
+
+<!--text formatting example --> 
+<strong>Rouf ahmed</strong><br>	<!--strong importance(usually displayed as bold)--> 
+<b> Rouf ahmed </b> <br>	<!--bold text --> 
+<em>Rouf ahmed</em> <br>		<!--emphasized text (usually displayed as italic) --> 
+<i>Rouf ahmed </i><br>		<!--italic text --> 	 
+<small>Rouf ahmed</small><br>	<!--smaller text -->  		
+<big>Rouf ahmed </big><br>	<!--bigger text (note:not widely supported ;better to use css) --> 
+<mark>Rouf ahmed</mark><br>	<!--highlighted or marked text --> 
+<ins> Rouf ahmed</ins><br>		<!--inserted text (usually underlined) --> 
+<u>Rouf ahmed</u><br>		<!--underlined text --> 
+<del>Rouf ahmed</del>		<!--strikethrough or deleted text --> 
+<pre>Rouf         ahmed </pre> 	<br>	<!--the word "Rouf" is followed by multiple space befor "ahmed" --> 
+<samp>Rouf ahmed </samp>		<!--sample output text(usually monospaced) --> 
+
+<hr>
+
+<!--subscript and superscript exapmle --> 
+<p>H<sub>2</sub>o</p>		<!--subscript text for chemical formula --> 
+<p>10<sup>2</sup>=100</p>	<!--superscript text for exponent --> 
+
+<hr>				<!--horizontal line separator --> 
+
+
+
+<!--list section --> 
+<h1> LIST:</h1>	<!--heading for list --> 
+
+<!--ordered list example --> 
+<h3>ordered list-</h3>		
+<ol>
+  <li>Abdur</li>
+  <li>Rouf</li>
+  <li>Ahmed</li>
+</ol>
+
+<!--unordered list exapmle --> 
+<h3>unordered list-</h3>
+<ul>
+  <li>Abdur</li>
+  <li>Rouf</li>
+  <li>Ahmed</li>
+</ul>
+
+
+<h3>Nested list-</h3>
+
+
+<ol>		<!--ol for main list item-->
+  <li>Name-	<!--list item 1:Name-->
+    <ul>		<!--ul for sub list items-->
+	<li>Abdur</li>
+	<li>Rouf</li>
+	<li>Ahmed</li>
+    </ul>
+  </li>
+
+
+  <li>Hobbies-
+    <ul>
+	<li>Coding</li>
+	<li>Gaming</li>
+	<li>stduy</li>
+    </ul>
+  </li>
+</ol>
+
+<hr>		<!--horizontal line separotor --> 
+
+
+<!--table section --> 
+<h4>TABLE 1:</h4>
+<!--frame and rules attributes for customizing borders -->
+
+<table border="2" cellpadding="5" cellspacing="0" style="border-color:red;width:50%">
+<thead>
+     <tr align="center">
+	<th>NAME</th>		<!--table header for name --> 	
+	<th>ROLL </th>		<!--table header for roll --> 
+	<th>GRADE</th>		<!--table header for grade --> 
+	<th>DEPARTMENT</th>	<!--table header for department --> 
+     </tr>
+</thead>
+
+<tbody>
+    <tr align="center">
+	<td>ROUF</td>		<!--table data for name --> 
+	<td>29</td>		<!--table data for roll --> 
+	<td>A+</td>		<!--table data for grade --> 
+	<td>BCA</td>		<!--table data for department --> 
+    </tr>
+</tbody>
+</table>
+
+<br><br>
+<h3>TABLE 2:</h3>
+
+<!--blue 2 pixel solid border-->
+<table border="2" cellpadding="10" cellspacing="0" style="border-color: blue; width: 50%;">
+        <thead>
+            <tr align="center">
+                <th rowspan="2">Sl. no.</th> <!--cover 2 row-->
+                <th colspan="2">Player</th>  <!--its cover 2 col-->
+                <th rowspan="2">Age</th>     <!--cover 2 row-->
+
+            </tr>
+            <tr align="center">
+                <th>Fname</th>
+                <th>Lname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>1</td>
+                <td>Rouf</td>
+                <td>Ahmed</td>
+                <td>18</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>Arbin</td>
+                <td>Ahmed</td>
+                <td>5</td>
+            </tr>
+            <tr align="center">
+                <td>3</td>
+                <td>Jannatun</td>
+                <td>Ahmed</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+
+<h3>Display Table:</h3>
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+     <tr>
+	<th>Quantity</th>
+	<th>Price</th>
+	<th>Total</th>
+     </tr>
+  </thead>
+  <tbody>
+    <tr>
+	<th>5pcs</th>
+	<th>10</th>
+	<th>50</th>
+     </tr>
+
+
+     <tr>
+	<th>1pcs</th>
+	<th>50</th>
+	<th>50</th>
+     </tr>
+  </tbody>
+</table>
+
+
+<hr>				<!--horizontal line separator--> 
+
+
+<!--form section --> 
+<h4>FORM:</h4>		
+<h1>Registration form</h1>
+<form>
+<!--input for registration number --> 
+<label for="regno">Registration Number:</label>
+<input type="text" id ="regno" name="regno" required><br> <br>		<!--double <br> for maintaining space look better not mandotary-->
+
+<!--input for name --> 
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required><br> <br>
+
+<label for="dob">Date of Birth</label>
+<input type="date" name="dob" required> <br><br>
+
+<!--dropdown for selecting gender --> 
+<label for="gender">Gender:</label>
+<select name="gender" required>
+<option value=""selected disabled>please select</option>
+<option value="male">male</option>
+<option value="female">female</option>
+<option value="other">other</option>				<!--can add id="  " for all before name="  "-->
+</select> <br> <br>
+
+<!--input for father's name --> 
+<label for ="father">Father's Name:</label>
+<input type ="Text" name="Father"  required><br><br>
+
+<!--input for course --> 
+<label for="course">Course:</label>
+<input type="text" name="course" required><br><br>
+
+<!--text area for address--> 
+<label for="address">Address:</label>
+<textarea id="address" name="address" required></textarea><br><br>
+
+<!--input for mobile number--> 
+<label for="mobile number">Mobile Number:</label>
+<input type="number" name="mobile number" required><br><br>
+
+<!--input for email id --> 
+<label for="email id">Email Id :</label>
+<input type="text" name="email id" required><br><br>
+
+<!--submit button --> 
+<input type="submit" value="submit">
+</form>
+
+<!--use label recommended
+required attribute used to specify that a form must be filled in before the form can be submitted-->
+ <hr>
+
+
+<h1>Registration Form</h6> <br>
+      <form>
+	<label for="regno">Registration No:</label>
+	<input type="text" name="regno" required><br><br>
+	
+	<label for="name">Name:</label>
+	<input type="text" name="name" required><br><br>
+	
+	<label for ="dob">Dob:</label>
+	<input type="date" name="dob" required><br><br>
+
+	<label for="gender">Gender:</label>
+	 <input type="radio" id="male" name="gender" value="male">
+	<label for="male">Male</label>	
+	<input type="radio" id="female" name="gender" value="female">	<label for="female">Female</label>	
+
+	<input type="radio" id="other" name="gender" value="other">
+	<label for="other">other</label>	
+<br><br>	
+
+	<label for="father">Father's Name:</label>
+	<input type="text" name="father" required><br><br>
+
+	<label for="course">Course:</label>
+	<input type="text" name="course" required> <br><br>
+	
+	<label for="address">Address:</label>
+	<textarea id="address" name="address" required> </textarea> <br><br>
+
+	<label for="mobile number">mobile number:</label>
+	<input type="number" name="mobile number" required><br><br>
+
+	<label for ="e.id">Email Id:</label>
+	<input type="text" name="e.id" required><br><br>
+
+
+	<input type="submit" value="Submit">
+      </form>
+<hr>
+
+<hr>
+
+<form>
+<h1>Personal Information Form</h1>
+
+    <label for ="name">Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <label for ="email">Email:</label>
+    <input type="email" name="email" required><br><br>
+
+    <label for ="phone">Phone:</label>
+    <input type="number" name="phone" required><br><br>
+
+    <label for =" age">Age:</label>
+    <input type="number" name="age" required><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+<hr>
+
+<h1>Submitted Personal Information  </h1>
+  <p><b>Name:</b>Abdur Rouf Ahmed </p>
+  <p><b>email:</b>abcdefghijkl@gmail.com</p>
+  <p><b>Phone:</b>+91 1234567890</p>
+  <p><b>Age:</b>18</p>
+
+<hr>
+<!--simple log in-->
+<h4>Log In:</h4>
+<form>
+username:
+<input type="text" name="username" required><br><br>
+password:
+<input type="password" name="password" required><br>
+
+
+<button type="submit">login </button>
+
+</form>
+
+<hr>
+<!--lint to example website-->
+<h2>LINK:<H2>
+<a href="https://www.bncollege.co.in"> ~CLICK HERE TO VISIT-BN COLLEGE,DHUBRI(AUTONOMOUS)</a>
+
+ <P style="color: green"> OR </p>
+
+<a href="https://www.instagram.com/roufahmed_/?utm_source=ig_web_button_share_sheet"> CLICK HERE TO VISIT- MY INSTAGRAM ID</a>
+
+<HR>
+<!--image from example website-->
+<h3> IMAGE: </h3>
+<img src="IMG-20241012-WA0068.jpg" alt="rouf's photo" width="400" height="300">		<!-- WIDTH, length AND HEIGHT ONLY FOR IMAGE SIZE TO LOOK BETTER ... - ENOUGH UPTO "ROUF'S PHOTO">
+
+</body>
+</html>
