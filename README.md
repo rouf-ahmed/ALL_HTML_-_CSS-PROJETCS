@@ -1,1 +1,1 @@
-# ALL_HTML_-_CSS-PROJETCS
+"This project is a fully responsive and visually appealing website built using HTML and CSS. It features a clean layout, modern design, and cross-browser compatibility. The project is designed to showcase structured web development using only front-end technologies without JavaScript. Ideal for beginners and those looking to practice responsive web design techniques."
